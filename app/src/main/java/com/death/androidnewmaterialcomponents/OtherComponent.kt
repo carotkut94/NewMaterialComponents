@@ -21,6 +21,10 @@ class OtherComponent : AppCompatActivity() {
                 name.error = null
             }
         }
+
+        back.setOnClickListener {
+            finish()
+        }
     }
 }
 
