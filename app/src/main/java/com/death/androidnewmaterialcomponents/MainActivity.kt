@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         fab.setOnClickListener {
             startActivity(Intent(this,OtherComponent::class.java))
         }
+
     }
 }
